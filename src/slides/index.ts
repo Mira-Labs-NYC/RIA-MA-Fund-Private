@@ -14,3 +14,8 @@ export { Slide08PlatformBusinessModel } from './Slide08PlatformBusinessModel';
 export { Slide09TechnologyMarketSolution } from './Slide09TechnologyMarketSolution';
 export { Slide10ValuationFramework } from './Slide10ValuationFramework';
 export { Slide11CommunityPartnerships } from './Slide11CommunityPartnerships';
+export { Slide01FundOverview } from './Slide01FundOverview';
+export { Slide02CapitalStructure } from './Slide02CapitalStructure';
+export { Slide03Tokenization } from './Slide03Tokenization';
+export { Slide04Pipeline } from './Slide04Pipeline';
+export { Slide05Returns } from './Slide05Returns';

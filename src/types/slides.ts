@@ -2,6 +2,8 @@ import type { ReactNode } from 'react';
 
 export type TitleSlide = {
   type: 'title';
+  title?: string;
+  subtitle?: string;
   content: ReactNode;
 };
 

@@ -2,13 +2,11 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
-  Slide01Title,
-  Slide02ExecutiveSummary,
-  Slide03CurrentStateVsPotential,
-  Slide04MultiCustodianRoadmap,
-  Slide06FinancialModel,
-  Slide07InvestmentTerms,
-  Slide10ValuationFramework
+  Slide01FundOverview,
+  Slide02CapitalStructure,
+  Slide03Tokenization,
+  Slide04Pipeline,
+  Slide05Returns
 } from './slides';
 import type { ContentSlide, SlideDefinition } from './types/slides';
 
@@ -17,13 +15,11 @@ const SectorAnalystsPitch = () => {
   const zoom = 1;
 
   const slides = [
-    Slide01Title,
-    Slide02ExecutiveSummary,
-    Slide03CurrentStateVsPotential,
-    Slide04MultiCustodianRoadmap,
-    Slide06FinancialModel,
-    Slide07InvestmentTerms,
-    Slide10ValuationFramework
+    Slide01FundOverview,
+    Slide02CapitalStructure,
+    Slide03Tokenization,
+    Slide04Pipeline,
+    Slide05Returns
   ] satisfies SlideDefinition[];
 
   const nextSlide = () => {
@@ -122,8 +118,8 @@ const SectorAnalystsPitch = () => {
 
         {isContentSlide(currentSlideData) && (
           <div className="absolute bottom-0 left-0 right-0 bg-slate-50 border-t border-slate-200 px-4 sm:px-6 md:px-8 lg:px-12 py-2 sm:py-3 flex flex-col sm:flex-row justify-between items-center gap-1 sm:gap-4">
-            <div className="text-xs text-slate-500 text-center sm:text-left">SECTOR ANALYSTS, LLC | Strategic Acquisition Opportunity</div>
-            <div className="text-xs text-slate-500 text-center sm:text-right">Tampa, Florida | CRD #169789 | Est. 2003</div>
+            <div className="text-xs text-slate-500 text-center sm:text-left">RIA M&amp;A FUND I, LP | Confidential Private Placement</div>
+            <div className="text-xs text-slate-500 text-center sm:text-right">Delaware LP | Tokenized Securities | 2025 Vintage</div>
           </div>
         )}
       </div>
