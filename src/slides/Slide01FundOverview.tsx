@@ -1,149 +1,145 @@
-import { Rocket, TrendingUp, Coins, Shield } from 'lucide-react';
+import { Rocket, Coins, Shield, Sparkle, BarChart3 } from 'lucide-react';
 import type { SlideDefinition } from '../types/slides';
 
 export const Slide01FundOverview: SlideDefinition = {
-  type: 'title',
-  title: 'RIA M&A Fund I, LP',
-  subtitle: 'Tokenized Investment Vehicle for Financial Services Acquisition',
+  type: 'content',
+  title: 'Plan B | RIA M&A Fund I, LP',
+  subtitle: 'Tokenized acquisition platform to scale Sector Analysts and next-wave RIAs',
   content: (
-    <div className="space-y-12">
-      {/* Hero Statement */}
-      <div className="text-center space-y-6">
-        <div className="text-6xl font-light text-slate-900">
-          $50K → $5M → $40M+
-        </div>
-        <div className="text-2xl text-slate-600 max-w-4xl mx-auto">
-          Tokenized fund acquiring undervalued RIAs, transforming them into fintech platforms,
-          and exiting at 2-3x value creation multiples
-        </div>
-      </div>
-
-      {/* Key Metrics Grid */}
-      <div className="grid grid-cols-4 gap-8">
-        <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200">
-          <Rocket className="mx-auto mb-4 text-blue-600" size={48} />
-          <div className="text-3xl font-light text-blue-900 mb-2">$50K</div>
-          <div className="text-sm uppercase tracking-wide text-blue-700">Setup Capital</div>
-          <div className="text-xs text-blue-600 mt-2">Fund Formation + Tokenization</div>
-        </div>
-
-        <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200">
-          <Coins className="mx-auto mb-4 text-purple-600" size={48} />
-          <div className="text-3xl font-light text-purple-900 mb-2">$5M</div>
-          <div className="text-sm uppercase tracking-wide text-purple-700">Target Raise</div>
-          <div className="text-xs text-purple-600 mt-2">Via Security Token Offering</div>
-        </div>
-
-        <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200">
-          <TrendingUp className="mx-auto mb-4 text-green-600" size={48} />
-          <div className="text-3xl font-light text-green-900 mb-2">8-10x</div>
-          <div className="text-sm uppercase tracking-wide text-green-700">Target MOIC</div>
-          <div className="text-xs text-green-600 mt-2">60-75% IRR over 3-5 years</div>
-        </div>
-
-        <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg border border-orange-200">
-          <Shield className="mx-auto mb-4 text-orange-600" size={48} />
-          <div className="text-3xl font-light text-orange-900 mb-2">3-5</div>
-          <div className="text-sm uppercase tracking-wide text-orange-700">Target Deals</div>
-          <div className="text-xs text-orange-600 mt-2">RIAs + Fintech + Strategies</div>
+    <div className="space-y-10">
+      <div className="rounded-xl bg-gradient-to-r from-slate-900 via-slate-800 to-blue-900 text-white px-8 py-10">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+          <div className="space-y-4 max-w-3xl">
+            <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/50 bg-blue-500/10 px-4 py-1 text-xs tracking-[0.3em] uppercase text-blue-200">
+              <Sparkle size={14} /> Plan B · Confidential
+            </div>
+            <h3 className="text-3xl md:text-4xl font-light tracking-tight">
+              $50K setup capital → $5M raise → $40M+ fintech exits
+            </h3>
+            <p className="text-sm md:text-base text-slate-300 leading-relaxed">
+              Tokenized Delaware LP acquiring undervalued RIAs, layering fintech infrastructure, and exiting to crypto-fintech buyers at premium multiples.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-4 text-center min-w-[260px]">
+            <div className="rounded-lg border border-blue-500/40 bg-blue-500/10 px-6 py-5">
+              <div className="text-xs uppercase tracking-widest text-blue-200 mb-2">Setup Capital</div>
+              <div className="text-3xl font-light">$50K</div>
+              <div className="text-xs text-blue-300 mt-2">Formation + tokenization</div>
+            </div>
+            <div className="rounded-lg border border-slate-700 bg-slate-800/60 px-6 py-5">
+              <div className="text-xs uppercase tracking-widest text-slate-300 mb-2">Target Raise</div>
+              <div className="text-3xl font-light">$5M</div>
+              <div className="text-xs text-slate-400 mt-2">Security token offering</div>
+            </div>
+            <div className="rounded-lg border border-emerald-500/40 bg-emerald-500/10 px-6 py-5">
+              <div className="text-xs uppercase tracking-widest text-emerald-200 mb-2">Fund Hold</div>
+              <div className="text-3xl font-light">24-36m</div>
+              <div className="text-xs text-emerald-200/80 mt-2">Accelerated exit window</div>
+            </div>
+            <div className="rounded-lg border border-purple-500/40 bg-purple-500/10 px-6 py-5">
+              <div className="text-xs uppercase tracking-widest text-purple-200 mb-2">Target MOIC</div>
+              <div className="text-3xl font-light">8-10x</div>
+              <div className="text-xs text-purple-200/80 mt-2">60-75% net IRR</div>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Investment Strategy */}
-      <div className="bg-gradient-to-r from-slate-900 via-blue-900 to-purple-900 text-white p-8 rounded-lg">
-        <h3 className="text-2xl font-light mb-6 text-center">Investment Strategy</h3>
-        <div className="grid grid-cols-3 gap-6 text-sm">
-          <div>
-            <div className="font-semibold text-blue-300 mb-3">1. Acquire Undervalued RIAs</div>
-            <ul className="space-y-2 text-blue-100">
-              <li>• Buy at 2-3x revenue multiples</li>
-              <li>• Target: $200-500M AUM firms</li>
-              <li>• Founder succession opportunities</li>
-              <li>• Strong client retention (85%+)</li>
+      <div className="grid lg:grid-cols-3 gap-6">
+        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex items-center gap-3 mb-4">
+            <Rocket className="text-blue-600" size={28} />
+            <div>
+              <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Phase 01</div>
+              <h4 className="text-lg font-semibold text-slate-900">Formation Sprint (Weeks 0-6)</h4>
+            </div>
+          </div>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>• Delaware LP + management company</li>
+            <li>• PPM, LPA, subscription docs finalized</li>
+            <li>• Token framework on Plume (ERC-3643)</li>
+            <li>• Banking, custody, audit partners onboarded</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex items-center gap-3 mb-4">
+            <Coins className="text-emerald-600" size={28} />
+            <div>
+              <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Phase 02</div>
+              <h4 className="text-lg font-semibold text-slate-900">Capital Raise (Months 2-12)</h4>
+            </div>
+          </div>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>• $5M STO with rolling quarterly closes</li>
+            <li>• $25K minimum · 5,000,000 tokens @ $1</li>
+            <li>• Investor onboarding via KYC/AML + accreditation</li>
+            <li>• Quarterly reporting + tokenized distributions</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex items-center gap-3 mb-4">
+            <Shield className="text-slate-700" size={28} />
+            <div>
+              <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Phase 03</div>
+              <h4 className="text-lg font-semibold text-slate-900">Deployment & Exits</h4>
+            </div>
+          </div>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li>• $2M: Sector Analysts 85% acquisition</li>
+            <li>• $1M: Lydia HFT tokenized strategies</li>
+            <li>• $1M: Luxembourg regulated platform</li>
+            <li>• $1M: Dry powder + fees + follow-ons</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+          <div className="flex items-center gap-3">
+            <BarChart3 className="text-blue-600" size={28} />
+            <div>
+              <h4 className="text-lg font-semibold text-slate-900">Priority Deals</h4>
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-500">First 12-month deployment map</p>
+            </div>
+          </div>
+          <div className="text-xs text-slate-500 uppercase tracking-[0.3em]">
+            Value Creation Stack · TradFi + Crypto + Tokenization
+          </div>
+        </div>
+
+        <div className="mt-6 grid md:grid-cols-3 gap-5">
+          <div className="rounded-lg border border-blue-200 bg-white p-5">
+            <div className="text-sm font-semibold text-blue-900 mb-1">Sector Analysts, LLC</div>
+            <p className="text-xs text-blue-600 uppercase tracking-[0.25em] mb-3">Acquisition · $2M</p>
+            <ul className="space-y-1 text-sm text-slate-600">
+              <li>• $309M AUM | 800 clients | CRD #169789</li>
+              <li>• 24-month fintech exit at 5x revenue → $45M</li>
+              <li>• LP share (85% ownership) ≈ $38.3M</li>
             </ul>
           </div>
-          <div>
-            <div className="font-semibold text-purple-300 mb-3">2. Build Tech Platform</div>
-            <ul className="space-y-2 text-purple-100">
-              <li>• Multi-custodian infrastructure</li>
-              <li>• Crypto/DeFi integration (Plume.org)</li>
-              <li>• Client portal + automation</li>
-              <li>• Tokenize strategies (Lydia HFT)</li>
+          <div className="rounded-lg border border-purple-200 bg-white p-5">
+            <div className="text-sm font-semibold text-purple-900 mb-1">Lydia HFT Token Strategies</div>
+            <p className="text-xs text-purple-600 uppercase tracking-[0.25em] mb-3">Tokenization · $1M</p>
+            <ul className="space-y-1 text-sm text-slate-600">
+              <li>• Launch HFT vaults on Plume.org</li>
+              <li>• 2/20 economics | $425K annual revenue</li>
+              <li>• Provides yield product for fund tokens</li>
             </ul>
           </div>
-          <div>
-            <div className="font-semibold text-green-300 mb-3">3. Exit at Fintech Multiples</div>
-            <ul className="space-y-2 text-green-100">
-              <li>• Sell at 5-7x revenue (fintech)</li>
-              <li>• Buyers: Coinbase, SoFi, custodians</li>
-              <li>• 24-36 month hold period</li>
-              <li>• 2-3x value creation arbitrage</li>
+          <div className="rounded-lg border border-emerald-200 bg-white p-5">
+            <div className="text-sm font-semibold text-emerald-900 mb-1">Luxembourg Entity</div>
+            <p className="text-xs text-emerald-600 uppercase tracking-[0.25em] mb-3">Cross-Border · $1M</p>
+            <ul className="space-y-1 text-sm text-slate-600">
+              <li>• EU regulatory passport + MiFID permissions</li>
+              <li>• Gateway to institutional crypto mandates</li>
+              <li>• Upside: 2x+ valuation with cleanup</li>
             </ul>
           </div>
         </div>
       </div>
 
-      {/* Tokenization Advantage */}
-      <div className="border-2 border-emerald-500 bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-lg">
-        <div className="flex items-start gap-6">
-          <Coins className="text-emerald-600 flex-shrink-0" size={64} />
-          <div>
-            <h3 className="text-2xl font-semibold text-emerald-900 mb-3">Why Tokenization?</h3>
-            <div className="grid grid-cols-2 gap-4 text-sm text-slate-700">
-              <div>
-                <strong className="text-emerald-800">Lower Barriers:</strong> $25K minimum (vs $100K+ traditional PE)
-              </div>
-              <div>
-                <strong className="text-emerald-800">24/7 Liquidity:</strong> Trade tokens post-lock-up (vs 5-10 year illiquidity)
-              </div>
-              <div>
-                <strong className="text-emerald-800">Global Access:</strong> Distribute to accredited investors worldwide
-              </div>
-              <div>
-                <strong className="text-emerald-800">Programmable:</strong> Automated distributions + governance via smart contracts
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Deal Pipeline Preview */}
-      <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
-        <h3 className="text-lg font-semibold text-slate-900 mb-4 text-center">Initial Acquisition Pipeline</h3>
-        <div className="grid grid-cols-3 gap-4 text-sm">
-          <div className="bg-white p-4 rounded border border-slate-200">
-            <div className="font-semibold text-blue-900 mb-2">🎯 Sector Analysts, LLC</div>
-            <div className="space-y-1 text-slate-600">
-              <div>• $309M AUM, 800 clients</div>
-              <div>• SEC-Registered RIA (CRD #169789)</div>
-              <div>• Investment: $2M (85% stake)</div>
-              <div>• Exit: $38M+ (24 months)</div>
-            </div>
-          </div>
-          <div className="bg-white p-4 rounded border border-slate-200">
-            <div className="font-semibold text-purple-900 mb-2">📈 Lydia HFT Fund</div>
-            <div className="space-y-1 text-slate-600">
-              <div>• Tokenized trading strategies</div>
-              <div>• High-frequency TradFi alpha</div>
-              <div>• Investment: $1M (setup + capital)</div>
-              <div>• Revenue: $425K/year</div>
-            </div>
-          </div>
-          <div className="bg-white p-4 rounded border border-slate-200">
-            <div className="font-semibold text-green-900 mb-2">🇱🇺 Luxembourg Entity</div>
-            <div className="space-y-1 text-slate-600">
-              <div>• EU regulatory license</div>
-              <div>• Cross-border capability</div>
-              <div>• Investment: $1M (pending DD)</div>
-              <div>• Strategic value TBD</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Confidentiality Notice */}
-      <div className="text-center text-xs text-slate-500 pt-4 border-t border-slate-200">
-        <strong>CONFIDENTIAL</strong> - Private Placement | Accredited Investors Only | Reg D Rule 506(c)
+      <div className="text-xs text-slate-500 uppercase tracking-[0.3em] text-center">
+        Confidential · Private Placement · For Accredited Investors (Reg D 506(c))
       </div>
     </div>
   )

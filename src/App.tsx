@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
+  Slide01Title,
   Slide01FundOverview,
   Slide02CapitalStructure,
   Slide03Tokenization,
@@ -15,6 +16,7 @@ const SectorAnalystsPitch = () => {
   const zoom = 1;
 
   const slides = [
+    Slide01Title,
     Slide01FundOverview,
     Slide02CapitalStructure,
     Slide03Tokenization,
