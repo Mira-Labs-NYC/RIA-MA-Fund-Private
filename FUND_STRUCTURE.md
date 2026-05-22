@@ -69,7 +69,7 @@
 | Tranche | Amount | Use of Proceeds |
 |---------|--------|-----------------|
 | **Tranche 1: Sector Analysts** | $2,000,000 | Partial acquisition (85% stake) via Option C structure |
-| **Tranche 2: Lydia HFT Fund** | $1,000,000 | Tokenized trading strategy fund + infrastructure |
+| **Tranche 2: Lidya HFT Fund** | $1,000,000 | Tokenized trading strategy fund + infrastructure |
 | **Tranche 3: Lux Entity** | $1,000,000 | Acquisition of Luxembourg-based financial entity |
 | **Tranche 4: Working Capital** | $500,000 | Operations, deal sourcing, due diligence |
 | **Tranche 5: Reserve** | $500,000 | Follow-on investments + opportunistic deals |
@@ -121,18 +121,18 @@
 - **Catch-up**: 50% (GP catches up to 20% after hurdle)
 - **Carried Interest**: 20/80 split after catch-up
 
-**Example Waterfall** ($5M fund, $20M exit after 4 years):
+**Example Waterfall** ($5M fund, $20M exit after 3 years):
 
 | Component | Amount | Calculation |
 |-----------|--------|-------------|
 | **Return of Capital** | $5,000,000 | LP capital returned first |
-| **Preferred Return (8%)** | $1,850,000 | 8% IRR over 4 years |
+| **Preferred Return (8%)** | $1,850,000 | 8% IRR over 3 years |
 | **Catch-up (50%)** | $925,000 | GP gets 50% until 20% carry achieved |
 | **Carried Interest (20%)** | $2,445,000 | 20% of remaining profits |
 | **LP Net Proceeds** | $9,780,000 | LPs receive 80% of profits above hurdle |
 | **GP Total Proceeds** | $3,370,000 | Catch-up + carry |
 | **LP Multiple** | **2.96x** | $14.78M / $5M |
-| **LP IRR** | **31%** | Over 4 years |
+| **LP IRR** | **39%** | Over 3 years |
 
 ---
 
@@ -145,18 +145,18 @@
 **Investment**:
 - Fund invests: $2,000,000 for 85% equity stake
 - Existing owners: Retain 15% + $1M setup capital
-- Hold period: 24 months
+- Hold period: 18 months
 - Exit: Fintech buyer at 5x revenue multiple
 
 **Economics**:
 - Current valuation: $7M (2.3x revenue)
-- Target revenue (24mo): $9M
+- Target revenue (18mo): $9M
 - Exit valuation: $45M (5x fintech multiple)
 - Fund proceeds: $38.3M (85% stake)
 - **Fund return**: 19.2x on $2M investment
 
 **Value Creation**:
-1. Deploy $1M technology (BNY Mellon, Plume, Lydia HFT)
+1. Deploy $1M technology (BNY Mellon, Plume, Lidya HFT)
 2. Grow AUM: $309M → $927M (3x)
 3. Grow revenue: $3M → $9M (3x)
 4. Position as fintech platform vs traditional RIA
@@ -165,14 +165,14 @@
 **Timeline**:
 - Month 0: Fund first close ($2M)
 - Month 1: Sector Analysts acquisition closes
-- Month 1-12: Phase 1 tech deployment + growth
-- Month 13-24: Phase 2 crypto integration
-- Month 24: Exit process begins
-- Month 26-28: Exit closes
+- Month 1-9: Phase 1 tech deployment + growth
+- Month 10-18: Phase 2 crypto integration
+- Month 18: Exit process begins
+- Month 19-20: Exit closes
 
 ---
 
-### Target 2: Lydia HFT Tokenized Strategy Fund
+### Target 2: Lidya HFT Tokenized Strategy Fund
 
 **Structure**: Separate tokenized fund for HFT trading strategies
 
@@ -182,7 +182,7 @@
 - Total: $1,000,000
 
 **Strategy**:
-1. Tokenize Lydia HFT strategies as separate fund
+1. Tokenize Lidya HFT strategies as separate fund
 2. Deploy via Plume.org infrastructure
 3. Offer to Sector Analysts clients + external LPs
 4. Revenue share: 2% management + 20% performance
@@ -283,7 +283,7 @@
 
 **Capital Deployed**:
 - Q1: Sector Analysts ($2M)
-- Q2: Lydia HFT setup ($1M)
+- Q2: Lidya HFT setup ($1M)
 - Q3-Q4: Luxembourg entity + pipeline ($2M)
 
 **Revenue**:
@@ -306,14 +306,14 @@
 **Revenue**:
 - Management fees: $100K
 - Sector Analysts growth: +$3M revenue (from $3M to $6M)
-- Lydia HFT: $200K (mgmt + performance)
+- Lidya HFT: $200K (mgmt + performance)
 - **Total**: $300K
 
 **Expenses**:
 - Operations: $175K
 - **Net income**: +$125K
 
-**NAV**: $8.0M (Sector Analysts appreciating, Lydia HFT operational)
+**NAV**: $8.0M (Sector Analysts appreciating, Lidya HFT operational)
 
 ---
 
@@ -324,7 +324,7 @@
 **Revenue**:
 - Management fees: $100K
 - Sector Analysts exit: $38.3M (85% of $45M valuation)
-- Lydia HFT: $400K (scaled to $20M AUM)
+- Lidya HFT: $400K (scaled to $20M AUM)
 - **Total**: $38.8M
 
 **Expenses**:
@@ -340,7 +340,7 @@
 
 ### Year 4-5: Portfolio Management & Exit
 
-**Strategy**: Hold Lydia HFT, sell Luxembourg entity, return capital
+**Strategy**: Hold Lidya HFT, sell Luxembourg entity, return capital
 
 **Projected Final Returns**:
 - Total proceeds: $50M+
@@ -436,14 +436,14 @@
 - Token needs liquidity post lock-up
 - Secondary market critical for LP confidence
 
-### 4. Lydia HFT Performance
+### 4. Lidya HFT Performance
 - Need to demonstrate alpha generation
 - Proof of concept for tokenized strategies
 - Builds credibility for future funds
 
 ### 5. Exit Discipline
 - Don't fall in love with assets
-- Fintech exit must happen Month 24-28
+- Fintech exit must happen Month 18-20
 - Return capital to LPs quickly = strong track record
 
 ---
@@ -491,7 +491,7 @@
 ### 3. Integrated Tech Stack
 - ✅ Plume.org for tokenization + RWA
 - ✅ BNY Mellon for custody (TradFi + crypto)
-- ✅ Lydia HFT for strategy alpha
+- ✅ Lidya HFT for strategy alpha
 - ✅ Unified platform approach
 
 ### 4. Speed to Market
@@ -518,7 +518,7 @@
 
 ### Medium-Term (Month 3-6)
 1. **Close Sector Analysts acquisition** ($2M)
-2. **Launch Lydia HFT fund** ($1M)
+2. **Launch Lidya HFT fund** ($1M)
 3. **Raise remaining $2M** (target final close)
 4. **Deploy pipeline capital** (opportunistic deals)
 

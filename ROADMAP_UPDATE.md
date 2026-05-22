@@ -11,7 +11,7 @@
 Build a unified custody platform leveraging:
 - **Institutional-grade infrastructure**: Schwab (existing), BNY Mellon (Phase 1 onboarding)
 - **Innovative crypto platforms**: Plume.org for RWA/tokenization
-- **Advanced TradFi strategies**: Lydia HFT for yield enhancement
+- **Advanced TradFi strategies**: Lidya HFT for yield enhancement
 
 ---
 
@@ -27,14 +27,14 @@ Build a unified custody platform leveraging:
 **Key Change:** Acknowledges they already work with Schwab, so BNY Mellon is the strategic addition in Phase 1. BNY Mellon provides both TradFi custody AND complete tech infrastructure for future crypto integration.
 
 **NEW Addition:**
-✅ "Integrate Lydia HFT for enhanced TradFi yield strategies"
+✅ "Integrate Lidya HFT for enhanced TradFi yield strategies"
 
-**Rationale:** Lydia HFT provides enhanced yield on traditional securities, improving client returns and competitiveness
+**Rationale:** Lidya HFT provides enhanced yield on traditional securities, improving client returns and competitiveness
 
 **Updated Milestone:**
 - 50% of clients onboarded to portal
 - 2 custodians operational (Schwab + BNY Mellon)
-- Lydia HFT strategies available
+- Lidya HFT strategies available
 
 ---
 
@@ -68,7 +68,7 @@ Build a unified custody platform leveraging:
 **Updated Milestone:**
 - 20% of AUM includes digital assets
 - BNY Mellon + Plume.org integrated
-- Lydia HFT strategies active
+- Lidya HFT strategies active
 
 ---
 
@@ -76,7 +76,7 @@ Build a unified custody platform leveraging:
 
 **Updated Milestone:**
 - 4+ custodians (Schwab, BNY Mellon, +2 additional TBD)
-- Full Plume.org + Lydia HFT integration
+- Full Plume.org + Lidya HFT integration
 - $620M+ AUM
 - $6-9M annual revenue
 
@@ -117,7 +117,7 @@ Build a unified custody platform leveraging:
    - DeFi integration
    - Innovative product offerings
 
-5. **Lydia HFT** (Phase 1)
+5. **Lidya HFT** (Phase 1)
    - High-frequency trading strategies
    - Enhanced TradFi yields
    - Competitive advantage
@@ -143,7 +143,7 @@ Build a unified custody platform leveraging:
 - ✅ Differentiated product offerings
 - ✅ Future-proof positioning
 
-**Lydia HFT:**
+**Lidya HFT:**
 - ✅ Improves TradFi returns immediately (Phase 1)
 - ✅ Competitive differentiation
 - ✅ Enhances value proposition
@@ -164,7 +164,7 @@ Build a unified custody platform leveraging:
 ### What This Enables
 
 **For Traditional Investors:**
-- ✅ Enhanced yields via Lydia HFT (better than standard equities/bonds)
+- ✅ Enhanced yields via Lidya HFT (better than standard equities/bonds)
 - ✅ Institutional-grade custody via Schwab and BNY Mellon (reduced counterparty risk)
 - ✅ Same trusted RIA relationship
 
@@ -208,7 +208,7 @@ Build a unified custody platform leveraging:
 
 ### Month 1-6 (Immediate Focus)
 1. BNY Mellon custody onboarding (TradFi)
-2. Lydia HFT integration and testing
+2. Lidya HFT integration and testing
 3. Client portal MVP with Schwab + BNY Mellon aggregation
 
 ### Month 7-18 (Crypto Foundation)
@@ -227,7 +227,7 @@ Build a unified custody platform leveraging:
 
 ### Revenue Growth Drivers
 
-**Phase 1 (Lydia HFT):**
+**Phase 1 (Lidya HFT):**
 - Estimated: +50-100 bps annual return improvement
 - Impact: Better client retention, easier client acquisition
 - Revenue: Maintain/grow existing $3M base
@@ -244,7 +244,7 @@ Build a unified custody platform leveraging:
 
 ### Client Satisfaction
 
-- ✅ Better returns (Lydia HFT)
+- ✅ Better returns (Lidya HFT)
 - ✅ More choices (4 custodians)
 - ✅ Cutting-edge products (RWA, DeFi via Plume)
 - ✅ Better technology (unified portal)
@@ -267,7 +267,7 @@ Build a unified custody platform leveraging:
 Phase 1: TradFi Infrastructure
 - OLD: Integrate 2nd custodian (Fidelity or Schwab)
 + NEW: Onboard BNY Mellon (2nd custodian alongside existing Schwab)
-+ NEW: Integrate Lydia HFT for enhanced yields
++ NEW: Integrate Lidya HFT for enhanced yields
 + WHY: BNY Mellon provides both TradFi custody AND tech foundation for future crypto
 
 Phase 2: Crypto Integration
@@ -279,11 +279,11 @@ Phase 2: Crypto Integration
 Phase 3: Advanced Capabilities
 - OLD: 4+ custodians (generic)
 + NEW: Schwab, BNY Mellon, +2 additional TBD (strategic flexibility)
-+ NEW: Full Plume.org + Lydia HFT integration
++ NEW: Full Plume.org + Lidya HFT integration
 
 Vision Statement
 - OLD: Generic multi-custodian approach
-+ NEW: Schwab + BNY Mellon as core institutional partners + innovative platforms (Plume, Lydia)
++ NEW: Schwab + BNY Mellon as core institutional partners + innovative platforms (Plume, Lidya)
 ```
 
 ---

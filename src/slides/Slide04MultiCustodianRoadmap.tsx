@@ -16,7 +16,7 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
             <p className="text-lg text-blue-100 leading-relaxed">
               Build a unified custody platform leveraging institutional-grade infrastructure (Schwab, BNY Mellon)
               integrated with innovative crypto platforms (Plume.org for RWA/tokenization) and advanced TradFi strategies
-              (Lydia HFT). This enables clients to seamlessly manage traditional securities and digital assets while
+              (Lidya HFT). This enables clients to seamlessly manage traditional securities and digital assets while
               reducing counterparty risk and accessing best-in-class yield strategies across both ecosystems.
             </p>
           </div>
@@ -25,15 +25,15 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
 
       {/* Implementation Roadmap */}
       <div className="space-y-6">
-        <h3 className="text-2xl font-light text-slate-800 border-b-2 border-slate-300 pb-3">36-Month Implementation Timeline</h3>
+        <h3 className="text-2xl font-light text-slate-800 border-b-2 border-slate-300 pb-3">18-Month Implementation Timeline</h3>
 
-        {/* Phase 1: Foundation (Months 1-6) */}
+        {/* Phase 1: Foundation (Months 1-3) */}
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-600 rounded-r-lg p-6">
           <div className="flex items-center gap-3 mb-4">
             <Calendar className="text-blue-700" size={24} />
             <div>
               <h4 className="text-xl font-semibold text-blue-900">Phase 1: Foundation Layer</h4>
-              <div className="text-sm text-blue-700">Months 1-6 | Investment: $400K</div>
+              <div className="text-sm text-blue-700">Months 1-3 | Investment: $400K</div>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="text-blue-600 flex-shrink-0 mt-0.5" size={16} />
-                  <span>Integrate Lydia HFT for enhanced TradFi yield strategies</span>
+                  <span>Integrate Lidya HFT for enhanced TradFi yield strategies</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="text-blue-600 flex-shrink-0 mt-0.5" size={16} />
@@ -94,13 +94,13 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
           </div>
         </div>
 
-        {/* Phase 2: Crypto Integration (Months 7-18) */}
+        {/* Phase 2: Crypto Integration (Months 4-9) */}
         <div className="bg-gradient-to-r from-purple-50 to-purple-100 border-l-4 border-purple-600 rounded-r-lg p-6">
           <div className="flex items-center gap-3 mb-4">
             <Clock className="text-purple-700" size={24} />
             <div>
               <h4 className="text-xl font-semibold text-purple-900">Phase 2: Crypto Asset Integration</h4>
-              <div className="text-sm text-purple-700">Months 7-18 | Investment: $800K</div>
+              <div className="text-sm text-purple-700">Months 4-9 | Investment: $800K</div>
             </div>
           </div>
 
@@ -156,18 +156,18 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
 
           <div className="mt-4 pt-4 border-t border-purple-300">
             <div className="text-sm text-purple-700">
-              <strong>Key Milestone:</strong> 20% of AUM includes digital assets | BNY Mellon + Plume.org integrated | Lydia HFT strategies active
+              <strong>Key Milestone:</strong> 20% of AUM includes digital assets | BNY Mellon + Plume.org integrated | Lidya HFT strategies active
             </div>
           </div>
         </div>
 
-        {/* Phase 3: Advanced Features (Months 19-36) */}
+        {/* Phase 3: Advanced Features (Months 10-18) */}
         <div className="bg-gradient-to-r from-emerald-50 to-green-100 border-l-4 border-emerald-600 rounded-r-lg p-6">
           <div className="flex items-center gap-3 mb-4">
             <Rocket className="text-emerald-700" size={24} />
             <div>
               <h4 className="text-xl font-semibold text-emerald-900">Phase 3: Advanced Capabilities</h4>
-              <div className="text-sm text-emerald-700">Months 19-36 | Investment: $1.0M</div>
+              <div className="text-sm text-emerald-700">Months 10-18 | Investment: $1.0M</div>
             </div>
           </div>
 
@@ -219,7 +219,7 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
 
           <div className="mt-4 pt-4 border-t border-emerald-300">
             <div className="text-sm text-emerald-700">
-              <strong>Key Milestone:</strong> 4+ custodians (Schwab, BNY Mellon, +2 additional) | Full Plume.org + Lydia HFT integration | $620M+ AUM | $6-9M annual revenue
+              <strong>Key Milestone:</strong> 4+ custodians (Schwab, BNY Mellon, +2 additional) | Full Plume.org + Lidya HFT integration | $620M+ AUM | $6-9M annual revenue
             </div>
           </div>
         </div>
@@ -232,7 +232,7 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
           <div className="text-center">
             <div className="text-sm text-slate-400 uppercase tracking-wide mb-2">Total Investment</div>
             <div className="text-4xl font-light">$2.2M</div>
-            <div className="text-xs text-slate-500 mt-1">Over 36 months</div>
+            <div className="text-xs text-slate-500 mt-1">Over 18 months</div>
           </div>
           <div className="text-center">
             <div className="text-sm text-blue-400 uppercase tracking-wide mb-2">Revenue Increase</div>
@@ -242,11 +242,11 @@ export const Slide04MultiCustodianRoadmap: SlideDefinition = {
           <div className="text-center">
             <div className="text-sm text-green-400 uppercase tracking-wide mb-2">ROI</div>
             <div className="text-4xl font-light text-green-300">230%+</div>
-            <div className="text-xs text-green-500 mt-1">By month 36</div>
+            <div className="text-xs text-green-500 mt-1">By month 18</div>
           </div>
           <div className="text-center">
             <div className="text-sm text-purple-400 uppercase tracking-wide mb-2">Payback</div>
-            <div className="text-4xl font-light text-purple-300">18-24mo</div>
+            <div className="text-4xl font-light text-purple-300">12-15mo</div>
             <div className="text-xs text-purple-500 mt-1">From launch</div>
           </div>
         </div>

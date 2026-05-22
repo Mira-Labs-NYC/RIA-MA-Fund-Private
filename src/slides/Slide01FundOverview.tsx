@@ -32,9 +32,9 @@ export const Slide01FundOverview: SlideDefinition = {
               <div className="text-xs text-slate-400 mt-2">Security token offering</div>
             </div>
             <div className="rounded-lg border border-emerald-500/40 bg-emerald-500/10 px-6 py-5">
-              <div className="text-xs uppercase tracking-widest text-emerald-200 mb-2">Fund Hold</div>
-              <div className="text-3xl font-light">24-36m</div>
-              <div className="text-xs text-emerald-200/80 mt-2">Accelerated exit window</div>
+            <div className="text-xs uppercase tracking-widest text-emerald-200 mb-2">Fund Hold</div>
+            <div className="text-3xl font-light">18-24m</div>
+            <div className="text-xs text-emerald-200/80 mt-2">Compressed exit window</div>
             </div>
             <div className="rounded-lg border border-purple-500/40 bg-purple-500/10 px-6 py-5">
               <div className="text-xs uppercase tracking-widest text-purple-200 mb-2">Target MOIC</div>
@@ -51,7 +51,7 @@ export const Slide01FundOverview: SlideDefinition = {
             <Rocket className="text-blue-600" size={28} />
             <div>
               <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Phase 01</div>
-              <h4 className="text-lg font-semibold text-slate-900">Formation Sprint (Weeks 0-6)</h4>
+              <h4 className="text-lg font-semibold text-slate-900">Formation Sprint (Weeks 0-4)</h4>
             </div>
           </div>
           <ul className="space-y-2 text-sm text-slate-600">
@@ -66,7 +66,7 @@ export const Slide01FundOverview: SlideDefinition = {
             <Coins className="text-emerald-600" size={28} />
             <div>
               <div className="text-xs uppercase tracking-[0.2em] text-slate-500">Phase 02</div>
-              <h4 className="text-lg font-semibold text-slate-900">Capital Raise (Months 2-12)</h4>
+              <h4 className="text-lg font-semibold text-slate-900">Capital Raise (Months 1-6)</h4>
             </div>
           </div>
           <ul className="space-y-2 text-sm text-slate-600">
@@ -85,8 +85,8 @@ export const Slide01FundOverview: SlideDefinition = {
             </div>
           </div>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li>• $2M: Sector Analysts 85% acquisition</li>
-            <li>• $1M: Lydia HFT tokenized strategies</li>
+              <li>• $2M: Sector Analysts 85% acquisition</li>
+              <li>• $1M: Lidya HFT tokenized strategies</li>
             <li>• $1M: Luxembourg regulated platform</li>
             <li>• $1M: Dry powder + fees + follow-ons</li>
           </ul>
@@ -99,7 +99,7 @@ export const Slide01FundOverview: SlideDefinition = {
             <BarChart3 className="text-blue-600" size={28} />
             <div>
               <h4 className="text-lg font-semibold text-slate-900">Priority Deals</h4>
-              <p className="text-xs uppercase tracking-[0.3em] text-slate-500">First 12-month deployment map</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-slate-500">First 9-month deployment map</p>
             </div>
           </div>
           <div className="text-xs text-slate-500 uppercase tracking-[0.3em]">
@@ -113,12 +113,12 @@ export const Slide01FundOverview: SlideDefinition = {
             <p className="text-xs text-blue-600 uppercase tracking-[0.25em] mb-3">Acquisition · $2M</p>
             <ul className="space-y-1 text-sm text-slate-600">
               <li>• $309M AUM | 800 clients | CRD #169789</li>
-              <li>• 24-month fintech exit at 5x revenue → $45M</li>
+              <li>• 18-month fintech exit at 5x revenue → $45M</li>
               <li>• LP share (85% ownership) ≈ $38.3M</li>
             </ul>
           </div>
           <div className="rounded-lg border border-purple-200 bg-white p-5">
-            <div className="text-sm font-semibold text-purple-900 mb-1">Lydia HFT Token Strategies</div>
+            <div className="text-sm font-semibold text-purple-900 mb-1">Lidya HFT Token Strategies</div>
             <p className="text-xs text-purple-600 uppercase tracking-[0.25em] mb-3">Tokenization · $1M</p>
             <ul className="space-y-1 text-sm text-slate-600">
               <li>• Launch HFT vaults on Plume.org</li>

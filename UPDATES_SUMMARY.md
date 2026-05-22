@@ -47,13 +47,13 @@
 | Component | Details |
 |-----------|---------|
 | **Initial Investment** | $1M for 15% equity stake |
-| **Hold Period** | 24 months |
+| **Hold Period** | 18 months |
 | **Target Growth** | 3x AUM ($309M → $927M), 3x Revenue ($3M → $9M) |
 | **Exit Multiple** | 5.0x revenue (fintech valuation) |
 | **Exit Value** | $45M enterprise value |
 | **Seller Proceeds** | $39.3M ($1M initial + $38.3M for 85% stake) |
 | **Return vs Option A** | 5.6x better ($39.3M vs $7M) |
-| **IRR** | 145% over 24 months |
+| **IRR** | 145% over 18 months |
 
 ### Why This Option?
 
@@ -71,7 +71,7 @@
 
 **Seller Economics:**
 - Option A: $7M (sell today, walk away)
-- Option C: $39.3M (wait 24 months, participate in growth)
+- Option C: $39.3M (wait 18 months, participate in growth)
 - **Net benefit: $32.3M additional proceeds**
 
 ### Files Modified
@@ -100,7 +100,7 @@
 
 ### Result
 ✅ Dramatically better returns for sellers (5.6x)
-✅ Shorter hold period (24 months vs 36 months)
+✅ Shorter hold period (18 months vs 36 months)
 ✅ Participative structure (sellers keep 85% upside)
 ✅ Multiple fintech buyer categories identified
 ✅ Clear path to $39M+ exit value
@@ -125,8 +125,8 @@
 
 ### Option C: Fintech Growth Partnership ⭐
 - **Payment**: $1M initial (15% equity) → $39M+ at exit
-- **Structure**: Growth equity + 24-month call option
-- **Timeline**: 24 months
+- **Structure**: Growth equity + 18-month call option
+- **Timeline**: 18 months
 - **Multiple**: 5.0x revenue (fintech)
 - **Best for**: Sellers wanting maximum returns
 - **IRR**: 145%
@@ -142,7 +142,7 @@
 
 ### Strategic Platforms
 3. **Plume.org** - RWA tokenization and crypto strategies
-4. **Lydia HFT** - Enhanced TradFi yield strategies
+4. **Lidya HFT** - Enhanced TradFi yield strategies
 
 ### Future Growth (Phase 3)
 - Add 2-3 additional custodians based on market needs
@@ -151,7 +151,7 @@
 
 ---
 
-## 📈 Target Metrics (Option C - 24 Months)
+## 📈 Target Metrics (Option C - 18 Months)
 
 | Metric | Current | Target | Growth |
 |--------|---------|--------|--------|
@@ -244,7 +244,7 @@ Four categories of potential acquirers:
 4. **Banks/Asset Managers**: JPMorgan, Goldman, BlackRock (crypto entry strategy)
 
 ### 4. Superior Seller Economics
-- Wait 24 months instead of selling today
+- Wait 18 months instead of selling today
 - Get $32M+ additional proceeds
 - Participate in growth upside
 - Keep $1M as immediate capital injection
@@ -277,7 +277,7 @@ af02ebe - Add Option C: Fintech Growth Partnership with 5x exit multiple
 - [ ] Validate growth assumptions for Option C
 - [ ] Research fintech acquirer landscape
 - [ ] Due diligence on BNY Mellon partnership terms
-- [ ] Model detailed cash flows for 24-month timeline
+- [ ] Model detailed cash flows for 18-month timeline
 
 ### Future Enhancements (If Needed)
 - [ ] Add comparison chart showing all 3 options side-by-side
@@ -303,8 +303,8 @@ af02ebe - Add Option C: Fintech Growth Partnership with 5x exit multiple
 | **Total Slides** | 7 |
 | **Deal Options** | 3 (A, B, C) |
 | **Best Option Return** | 5.6x (Option C) |
-| **Investment Timeline** | 24-36 months |
-| **Strategic Partners** | 4 (Schwab, BNY Mellon, Plume, Lydia) |
+| **Investment Timeline** | 12-18 months |
+| **Strategic Partners** | 4 (Schwab, BNY Mellon, Plume, Lidya) |
 | **Target AUM Growth** | 3x ($309M → $927M) |
 | **Target Revenue Growth** | 3x ($3M → $9M) |
 | **Fintech Exit Multiple** | 5.0x revenue |
@@ -315,4 +315,3 @@ af02ebe - Add Option C: Fintech Growth Partnership with 5x exit multiple
 **Last Updated**: October 28, 2025
 **Status**: ✅ Production Ready
 **Next Deploy**: Auto-triggered on git push to main
-
